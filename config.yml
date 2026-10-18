@@ -40,14 +40,14 @@
       description: Every ride request spawns an isolated Docker container. Tested against 10,000+ concurrent requests.
   
   theme:
-     dark: deep-sky
-     light: cyanotype
-     synapse_cyan: "#d79a6c"   # your dark-mode accent — replaces the blue for active stars
-     axon_amber: "#97958a"     # your dark muted — dormant stars
-     void: "#121210"           # your dark paper
-     text_bright: "#ece9e0"    # your dark ink
-     text_dim: "#97958a"       # your dark muted
-     text_faint: "#2b2a24"     # your dark rule
+      dark: deep-sky
+      light: cyanotype
+      synapse_cyan: "#d79a6c"   # your dark-mode accent — replaces the blue for active stars
+      axon_amber: "#97958a"     # your dark muted — dormant stars
+      void: "#121210"           # your dark paper
+      text_bright: "#ece9e0"    # your dark ink
+      text_dim: "#97958a"       # your dark muted
+      text_faint: "#2b2a24"     # your dark rule
    
   stats:
     metrics:
