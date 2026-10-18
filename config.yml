@@ -54,3 +54,78 @@
   
   languages:
     max_display: 8
+  
+  Commit it, then re-trigger the Action.
+ 
+▸ Credits: 0.38 • Time: 9s
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Run python -m generator.main                                                                                              
+  2026-10-18 17:03:19 [ERROR] Invalid config: the config file could not be read as YAML: mapping values are not allowed here
+    in "/home/runner/work/galaxy-profile/galaxy-profile/config.yml", line 3, column 10                                      
+  Error: Process completed with exit code 1.                                                                                
+   
+  The YAML parser is choking on line 3. The file still has the instruction text at the top. When you edited it, the old content wasn't
+  fully replaced.
+  
+  Go to the file in GitHub, click the pencil (edit) icon, then press Ctrl+A to select everything and delete it all before pasting. Make
+  sure the file starts with username: on line 1 with no blank lines or text before it.
+  
+  Also — the comments after the hex values (# your dark-mode accent...) can sometimes trip up YAML parsers. Use this stripped version to
+  be safe:
+  
+  username: Kartikeya-G121
+  
+  profile:
+    name: Kartikeya Gupta
+    tagline: Full-stack & applied-AI engineer
+    philosophy: Systems that hold onto context.
+  
+  galaxy_arms:
+    - name: AI / ML
+      items:
+        - Python
+        - PyTorch
+        - scikit-learn
+        - LangChain
+        - Transformers
+        - FAISS
+        - Milvus
+        - Groq
+  
+    - name: Full-stack
+      items:
+        - TypeScript
+        - Next.js
+        - React
+        - FastAPI
+        - Flask
+        - Tailwind CSS
+  
+    - name: Infra / Data
+      items:
+        - Docker
+        - PostgreSQL
+        - Supabase
+  
+  projects:
+    - repo: Kartikeya-G121/uber_one_clone
+      description: Every ride request spawns an isolated Docker container. Tested against 10,000+ concurrent requests.
+  
+  theme:
+    dark: deep-sky
+    light: cyanotype
+    synapse_cyan: "#d79a6c"
+    axon_amber: "#97958a"
+    void: "#121210"
+    text_bright: "#ece9e0"
+    text_dim: "#97958a"
+    text_faint: "#2b2a24"
+  
+  stats:
+    metrics:
+      - stars
+      - repos
+      - prs
+  
+  languages:
+    max_display: 8
