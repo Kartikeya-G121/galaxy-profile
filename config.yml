@@ -1,0 +1,53 @@
+ 
+  In your forked repo (Kartikeya-G121/galaxy-profile), click Add file → Create new file, name it config.yml, paste this:
+  
+  username: Kartikeya-G121
+  
+  profile:
+    name: Kartikeya Gupta
+    tagline: Full-stack & applied-AI engineer
+    philosophy: Systems that hold onto context.
+  
+  galaxy_arms:
+    - name: AI / ML
+      items:
+        - Python
+        - PyTorch
+        - scikit-learn
+        - LangChain
+        - Transformers
+        - FAISS
+        - Milvus
+        - Groq
+  
+    - name: Full-stack
+      items:
+        - TypeScript
+        - Next.js
+        - React
+        - FastAPI
+        - Flask
+        - Tailwind CSS
+  
+    - name: Infra / Data
+      items:
+        - Docker
+        - PostgreSQL
+        - Supabase
+  
+  projects:
+    - repo: Kartikeya-G121/uber_one_clone
+      description: Every ride request spawns an isolated Docker container. Tested against 10,000+ concurrent requests.
+  
+  theme:
+    dark: deep-sky
+    light: cyanotype
+  
+  stats:
+    metrics:
+      - stars
+      - repos
+      - prs
+  
+  languages:
+    max_display: 8
